@@ -1,25 +1,3 @@
-# Cancer Detection
+# Cancer Detection with ML
 
-Binary classification models for predicting breast cancer from diagnostic data using supervised learning techniques.
-
-## Overview
-This project implements and compares:
-- Logistic Regression
-- Decision Trees
-- Support Vector Machines
-
-## Dataset
-Wisconsin Diagnostic Breast Cancer dataset (via scikit-learn)
-
-## Performance
-- Best model accuracy: 94%
-- Evaluated using ROC curves and confusion matrices
-
-## Tools
-- Python, scikit-learn, pandas, matplotlib, seaborn
-
-## How to Run
-Open `cancer_detection.ipynb` and run all cells in Jupyter or Google Colab.
-
-## Status
-✅ Completed — used in academic coursework (Spring 2025)
+I built classification models to predict breast cancer using the Wisconsin Diagnostic dataset. I implemented logistic regression, decision trees, and SVMs in scikit-learn and achieved 94% test accuracy. I compared model performance using ROC curves and confusion matrices, and focused on interpretability and real-world relevance in healthcare applications.
