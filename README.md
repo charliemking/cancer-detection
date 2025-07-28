@@ -19,6 +19,3 @@ Trained models to classify tumors as malignant or benign using the Wisconsin Dia
 <p align="center">
   <em>Figure 1: ROC Curve (left) and Confusion Matrix (right)</em>
 </p>
-
-## Tools & Libraries
-Python, scikit-learn, NumPy, Matplotlib
