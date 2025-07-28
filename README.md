@@ -1,21 +1,33 @@
-# Breast Cancer Detection with Supervised Learning
+# Lunar Lander with Deep Reinforcement Learning
 
-Trained models to classify tumors as malignant or benign using the Wisconsin Diagnostic dataset.
+This project implements a Deep Q-Network (DQN) using PyTorch to train an agent to solve the `LunarLander-v3` environment from OpenAI Gym. The agent learns to land a spacecraft safely by interacting with the environment and approximating value functions through a neural network.
 
-## Models Used
-- Logistic Regression
-- Decision Tree
-- Support Vector Machine (SVM)
+Key reinforcement learning techniques used include epsilon-greedy exploration, experience replay, and a target network. Over 1000+ training episodes, the agent consistently learned to land successfully.
 
-## Results
-- Best model (SVM) achieved **94% test accuracy**
-- Evaluated using ROC curves and confusion matrices
+Through this project, I gained hands-on experience with deep reinforcement learning and a stronger understanding of how neural networks can approximate value functions in sequential decision-making tasks.
+
+---
+
+## 🧠 Key Components
+
+- **Environment**: OpenAI Gym `LunarLander-v3`
+- **Algorithm**: Deep Q-Network (DQN)
+- **Techniques**:
+  - Epsilon-greedy exploration
+  - Experience replay buffer
+  - Target network for stabilized Q-value updates
+
+---
+
+## 📈 Training Results
+
+- The agent learned to land successfully in most episodes by the end of training.
+- Episode returns increased significantly, with landing efficiency improving over time.
 
 <p align="center">
-  <img src="ROC.png" width="50%" alt="ROC Curve">
-  <img src="CM.png" width="43.72%" alt="Confusion Matrix">
+  <strong>Training Performance</strong><br>
+  <img src="training_results.png" width="900" alt="Episode returns and lengths during training">
 </p>
 
-<p align="center">
-  <em>Figure 1: ROC Curve (left) and Confusion Matrix (right)</em>
-</p>
+- **Left**: Episode Returns — shows increasing reward as the policy improves  
+- **Right**: Episode Lengths — shows shorter, more efficient landings
