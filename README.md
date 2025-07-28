@@ -17,6 +17,3 @@ Trained models to classify tumors as malignant or benign using the Wisconsin Dia
 
 ## Tools & Libraries
 Python, scikit-learn, NumPy, Matplotlib
-
-## Reflections
-- All models performed well on clean features
