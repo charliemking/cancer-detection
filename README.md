@@ -12,7 +12,7 @@ Trained models to classify tumors as malignant or benign using the Wisconsin Dia
 - Evaluated using ROC curves and confusion matrices
 
 <p align="center">
-  <img src="ROC.png" width="51%" alt="ROC Curve">
+  <img src="ROC.png" width="50%" alt="ROC Curve">
   <img src="CM.png" width="44%" alt="Confusion Matrix">
 </p>
 
