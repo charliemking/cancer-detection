@@ -1,3 +1,22 @@
-# Cancer Detection with Supervised Learning
+# Breast Cancer Detection with Supervised Learning
 
-In this project, I built classification models to predict breast cancer from tumors using the Wisconsin Diagnostic dataset. I implemented logistic regression, decision trees, and SVMs in scikit-learn and achieved 94% test accuracy. To compare model performance, I used ROC curves and confusion matrices. My main focus was interpretability and real-world relevance in healthcare applications.
+Trained models to classify tumors as malignant or benign using the Wisconsin Diagnostic dataset.
+
+## Models Used
+- Logistic Regression
+- Decision Tree
+- Support Vector Machine (SVM)
+
+## Results
+- Best model (SVM) achieved **94% test accuracy**
+- Evaluated using ROC curves and confusion matrices
+
+<p align="center">
+  <img src="ROC.png" width="500"/>
+</p>
+
+## Tools & Libraries
+Python, scikit-learn, NumPy, Matplotlib
+
+## Reflections
+- All models performed well on clean features
