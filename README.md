@@ -1,6 +1,8 @@
 # Breast Cancer Detection with Supervised Learning
 
-Trained models to classify tumors as malignant or benign using the Wisconsin Diagnostic dataset.
+Trained models to classify tumors as malignant or benign using the Wisconsin Diagnostic dataset. 
+
+This project gave me hands-on experience applying supervised learning to a real-world medical dataset. It deepened my understanding of how to evaluate models beyond accuracy and think critically about reliability in sensitive applications like healthcare.
 
 ## Models Used
 - Logistic Regression
